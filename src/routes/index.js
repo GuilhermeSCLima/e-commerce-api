@@ -23,13 +23,5 @@ routes.delete('/products/:user_id/:product_id', ProductController.deleteProduct)
 routes.get('/products', ProductController.getProducts)
 routes.get('/products/:product_id', ProductController.getProductsById)
 
-routes.post('/cart/:user_id')
-routes.get('/cart/:user_id')
-
-routes.get('/cart/:user_id/cart_id')
-
-
-
-
 
 module.exports = routes;
